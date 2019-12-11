@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>LVJ Weekly Planner, 2 Pages per Week, 2 Pages per Month, Plus Organizer Page (Style D) | Handy Forms LLC</title>
+<meta charset="utf-8" />
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f662eb9288","applicationID":"15456546","transactionName":"J1xdF0MKDg0ERh9FFRZWVkxBFw0FFFdERUoXW1wU","queueTime":4,"applicationTime":102,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"f662eb9288",applicationID:"15456546"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1153.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+
+
+
+
+<meta content="authenticity_token" name="csrf-param">
+
+
+<meta content="wdT5EgytHtYlU2EMZzjuALnYJRvRlFmEnyeA52Bi6nBJ9j+MNlf699Ni80uQZxVJ2ThRnEiTHi2uZ+o74BOqug==" name="csrf-token">
+
+
+
+<meta property="og:title" content="LVJ Weekly Planner, 2 Pages per Week, 2 Pages per Month, Plus Organizer Page (Style D)" />
+<meta property="og:type" content="product" />
+<meta property="og:price:amount" content="14.50" />
+<meta property="og:price:currency" content="USD" />
+
+
+
+<meta property="og:image" content="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/515_original/:/rs=w:600,h:600" />
+
+
+<link rel="stylesheet" type="text/css" href="//onlinestore.wsimg.com/assets/themes/__master/assets/stylesheets/master_styles-671fa91098eb4c5529220118f0ebab2c120702cbfa2c3032114c87f7f5ebc44e.css">
+
+  <link href='//fonts.googleapis.com/css?family=Fauna+One|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  
+<link rel="stylesheet" type="text/css" href="//onlinestore.wsimg.com/assets/themes/008/V1/assets/stylesheets/style-8ecc9fcc260de39cea002fc4360c1eadb55aeb96ca68234c09d322aa8db66554.css">
+
+
+
+
+  
+  
+  
+  
+
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+<script type="text/javascript">
+  var DeferredLoader = (function () {
+
+    function downloadJS(script) {
+      var element = document.createElement("script");
+      element.src = script;
+      document.body.appendChild(element);
+    }
+
+    return {
+      addScript: function (script) {
+        var add = function () {
+          downloadJS(script);
+        };
+
+        if (window.addEventListener) {
+          window.addEventListener("load", add, false);
+        } else if (window.attachEvent) {
+          window.attachEvent("onload", add);
+        } else {
+          window.onload = add;
+        }
+      }
+    };
+  })();
+</script>
+
+<script type="text/javascript">
+  window.currency = {"symbol":"$","format":"%u%n","with_currency":false,"currency":"USD","decimal_mark":".","thousands_separator":",","precision":2} || {};
+</script>
+</head>
+
+<body class="page-products">
+  <div class="top-bar">
+    <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        
+        <ul class="nav navbar-nav navbar-right" id="cart-info">
+  <li>
+    <a href="/cart">
+      <span id='cart-count'>View Cart (0 Items)</span>
+    </a>
+  </li>
+  <li id="checkout-link" style="display:none">
+    <a href="/checkout">
+        Checkout
+    </a>
+  </li>
+</ul>
+
+        
+
+        <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="nav navbar-nav navbar-right">
+  
+
+  
+  <li class=""><a  href="/">Home</a></li>
+  
+
+  
+
+  
+  <li class="dropdown active">
+      <a href="/products" class="dropdown-toggle" data-toggle="dropdown">Shop <span class="caret"></span></a>
+      <ul class="dropdown-menu" id="nav-cat-list">
+        <li class="view-all "><a href="/products">View All</a></li>
+        <li role="presentation" class="divider"></li>
+        
+
+    
+      
+<li >
+  <a href="/t/franklin-covey-compact">Franklin Covey Compact (FCC)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/daily-planners-fcc">FCC Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fcc">FCC Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fcc">FCC Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fcc">FCC Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/franklin-covey-classic">Franklin Covey Classic (FCS)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/daily-planners-fcs">FCS Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fcs">FCS Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fcs">FCS Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fcs">FCS Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/filofax-a5-size">FiloFax A5 (A5)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/daily-planners-fa5">A5 Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fa5">A5 Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fa5">A5 Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fa5">A5 Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/filofax-personal">FiloFax Personal (FPL)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/daily-planners-fpl">FPL Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fpl">FPL Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fpl">FPL Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fpl">FPL Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/filofax-pocket">FiloFax Pocket (FPK)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/daily-planners-fpk">FPK Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fpk">FPK Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fpk">FPK Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fpk">FPK Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/filofax-mini">FiloFax Mini (FMI)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/daily-planners-fmi">FMI Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fmi">FMI Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fmi">FMI Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fmi">FMI Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/staples-arc--levenger-circa-junior">Staples ARC / Levenger Circa Junior (LVJ)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/daily-planners-lvj">LVJ Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-lvj">LVJ Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-lvj">LVJ Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-lvj">LVJ Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/staples-arc--levenger-letter">Staples ARC / Levenger Circa Letter &amp; Standard 3-Ring (LVL)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/daily-planners-lvl">LVL Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-lvl">LVL Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-lvl">LVL Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-lvl">LVL Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/a6-size-inserts-and-planners-ha6">A6 Size Inserts and Planners (HA6)</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/ha6-organizer-inserts">HA6 Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/misc-products">Misc. Products</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/special-orders">Special Orders</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/ringbook-products">RingBook Products</a>
+  
+  
+    <ul>
+    
+      
+<li >
+  <a href="/t/ringbook-binders">RingBook Binders</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/ringbook-accessories">RingBook Accessories</a>
+  
+</li>
+
+    
+    </ul>
+  
+  
+</li>
+
+    
+
+
+
+      </ul>
+    </li>
+  
+
+  
+
+  
+  <li class=""><a  href="/about">Our Story</a></li>
+  
+
+  
+
+  
+  <li class=""><a  href="/contact">Contact Us</a></li>
+  
+
+  
+</ul>
+
+        </div>
+      </nav>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row brand">
+    <div class="col-sm-8">
+      
+  <span class="logo"><a href="/"><img src="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/66_original/:/rs=w:400,h:400" class="img-responsive" alt="Handy Forms LLC"></a></span>
+
+
+
+	<span class="tagline">Organize Your&nbsp;Life</span>
+
+    </div>
+    <div class="col-sm-4">
+      <form class="search" role="search" method="GET" action="/products">
+    <label class="sr-only" for="search">Search</label>
+    <input type="text" class="form-control input-sm" id="search" placeholder="Start your search here" name="keywords">
+    <button class="btn-none"><span class="glyphicon glyphicon-search"></span></button>
+</form>
+    </div>
+  </div>
+
+  
+<ul class="nav category-bar">
+
+  
+<li class="dropdown ">
+  <a href="/t/franklin-covey-compact">Franklin Covey Compact (FCC) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/daily-planners-fcc">FCC Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fcc">FCC Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fcc">FCC Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fcc">FCC Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/franklin-covey-classic">Franklin Covey Classic (FCS) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/daily-planners-fcs">FCS Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fcs">FCS Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fcs">FCS Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fcs">FCS Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/filofax-a5-size">FiloFax A5 (A5) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/daily-planners-fa5">A5 Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fa5">A5 Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fa5">A5 Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fa5">A5 Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/filofax-personal">FiloFax Personal (FPL) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/daily-planners-fpl">FPL Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fpl">FPL Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fpl">FPL Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fpl">FPL Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/filofax-pocket">FiloFax Pocket (FPK) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/daily-planners-fpk">FPK Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fpk">FPK Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fpk">FPK Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fpk">FPK Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/filofax-mini">FiloFax Mini (FMI) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/daily-planners-fmi">FMI Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-fmi">FMI Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-fmi">FMI Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-fmi">FMI Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/staples-arc--levenger-circa-junior">Staples ARC / Levenger Circa Junior (LVJ) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/daily-planners-lvj">LVJ Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-lvj">LVJ Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-lvj">LVJ Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-lvj">LVJ Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/staples-arc--levenger-letter">Staples ARC / Levenger Circa Letter &amp; Standard 3-Ring (LVL) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/daily-planners-lvl">LVL Daily Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/weekly-planners-lvl">LVL Weekly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/monthly-planners-lvl">LVL Monthly Planners</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/organizer-inserts-lvl">LVL Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/a6-size-inserts-and-planners-ha6">A6 Size Inserts and Planners (HA6) <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/ha6-organizer-inserts">HA6 Organizer Inserts</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+  
+
+<li class="">
+  <a href="/t/misc-products">Misc. Products</a>
+</li>
+
+
+
+  
+
+<li class="">
+  <a href="/t/special-orders">Special Orders</a>
+</li>
+
+
+
+  
+<li class="dropdown ">
+  <a href="/t/ringbook-products">RingBook Products <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    
+      
+<li >
+  <a href="/t/ringbook-binders">RingBook Binders</a>
+  
+</li>
+
+    
+      
+<li >
+  <a href="/t/ringbook-accessories">RingBook Accessories</a>
+  
+</li>
+
+    
+    </ul>
+</li>
+
+
+
+</ul>
+
+
+
+  <div class="content">
+	
+
+<div class="row">
+    <div class="col-lg-12">
+        
+
+
+<ol class="breadcrumb" id="breadcrumb">
+    
+    <li><a href="/products">Shop</a></li>
+    
+    <li>LVJ Weekly Planner, 2 Pages per Week, 2 Pages per Month, Plus Organizer Page (Style D)</li>
+    
+</ol>
+
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4 single-product-img-col">
+    <div id="product-zoom" class="single-product-zoom" data-toggle="modal" data-target="#product-modal">
+      <img id="product-image" class="single-product-img"
+      src="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/515_original/:/rs=w:600,h:600"
+      alt="LVJ Weekly Planner, 2 Pages per Week, 2 Pages per Month, Plus Organizer Page (Style D)">
+      <div class="overlay"><span class="glyphicon glyphicon-fullscreen"></span></div>
+    </div>
+
+    
+    <ul class="single-product-thumbs" id="product-thumbs">
+      
+      <li class="active" data-url="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/515_original/:/rs=w:600,h:600">
+        <div style='background-image:url("https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/515_original/:/rs=w:100,h:100");'></div>
+      </li>
+      
+      <li class="" data-url="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/516_original/:/rs=w:600,h:600">
+        <div style='background-image:url("https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/516_original/:/rs=w:100,h:100");'></div>
+      </li>
+      
+      <li class="" data-url="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/517_original/:/rs=w:600,h:600">
+        <div style='background-image:url("https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/517_original/:/rs=w:100,h:100");'></div>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  <div class="col-sm-5">
+    <h1 class="single-product-title" id="product-name">LVJ Weekly Planner, 2 Pages per Week, 2 Pages per Month, Plus Organizer Page (Style D)</h1>
+    
+    <div class="single-product-review">
+      <div href="#productTabs" data-tab-target="#reviews"><div class="yotpo bottomLine" style="display:inline-block; width:auto;"
+  data-appkey="SikM01vhUjBnRV2exx8xkk3yB0JgZ0KXUtHHd7lO"
+  data-domain="https://handyforms.com"
+  data-product-id="213"
+  data-name="LVJ Weekly Planner, 2 Pages per Week, 2 Pages per Month, Plus Organizer Page (Style D)"
+  data-url="https%3A%2F%2Fhandyforms.com%2Fproducts%2Flvj-weekly-planner-2-pages-per-week-2-pages-per-month-plus-organizer-page-style-d"
+  data-image-url="https%3A%2F%2Fisteam.wsimg.com%2Fip%2Fa5c6a357-9878-11e5-a590-f04da2077796%2Fols%2F515_original%2F%3A%2Frs%3Dw%3A600%2Ch%3A600"
+  data-description="Ideal for customizing by adding special organizer sections.
+
+
+Weekly and monthly planner for Levenger Circa and Staples ARC Junior size notebooks. Fully dated. Lines in weekly and monthly blocks.
+
+
+2 pages per month monthly planner with tabs (monthly pages can be omitted).
+
+Week days Monday-Friday on left facing page, Saturday-Sunday on the right. Right-facing page also has spaces for To-Do, and Notes.
+
+Includes yearly calendars for current year and next year.
+
+
+Page size is 5.5&quot; x 8.5&quot;. High quality, heavy weight, ultra smooth paper. Acid-free. Paper produced from FSC certified forests.
+
+
+Punched with 8 disc slots for Levenger Circa and Staples ARC Junior size notebooks.
+
+This is a complete monthly and weekly planner insert for the popular Levenger Circa and Staples ARC Junior size notebooks. The page size is 5.5&quot; x 8.5&quot;. It is fully dated includes US (or other) Holidays and observances.  Each week is on two pages with Mon-Fri on the left and Sat-Sun plus organizer sections on the right. The monthly calendars, if a monthly option is selected, provide 2 pages per month, with durable plastic tabs. Unless the &quot;No Monthly Pages&quot; option is selected, the monthly pages are merged into the weekly pages so that the monthly spread comes just before the weekly spread containing the first day of that month. Also included are yearly calendars for current year and next year. The style of monthly spread can be selected as:No Monthly Pages: The monthly spreads are omitted, i.e. the planner is weekly only.6 column: Mon-Tue-Wed on the left, Thu-Fri-Sat/Sun on the right.7 column: Mon-Tue-Wed-Thu (or Sun-Mon-Tue-Wed) on the left and Fri-Sat-Sun (or Thu-Fri-Sat) on the right, plus notes and mini-calendars for coming months. End-of-month orphaned days have separate blocks.8 column similar to 7 column above, except end-of-month orphaned days share blocks.Please select the above links for examples of 6 column, 7 column, and 8 column monthly styles.">
+</div>
+</div>
+    </div>
+    
+    <div class="single-product-description " >
+      <div id="product-description-height">
+        <ul style="margin-bottom:11px;">
+<li style="color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;">
+<span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;">Ideal for customizing by adding special organizer sections.</span><br><span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;"></span>
+</li>
+<li style="color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;">
+<span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;">Weekly and monthly planner for Levenger Circa and Staples ARC Junior size notebooks. Fully dated. Lines in weekly and monthly blocks.</span><br>
+</li>
+<li style="color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;">
+<span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;">2 pages per month monthly planner with tabs (monthly pages can be omitted).</span><br>
+</li>
+<li style="color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;"><span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;">Week days Monday-Friday on left facing page, Saturday-Sunday on the right. Right-facing page also has spaces for To-Do, and Notes.<br></span></li>
+<li style="color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;">
+<span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;">Includes yearly calendars for current year and next year.</span><br>
+</li>
+<li style="color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;">
+<span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;">Page size is 5.5" x 8.5". High quality, heavy weight, ultra smooth paper. Acid-free. Paper produced from FSC certified forests.</span><br>
+</li>
+<li style="color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;">
+<span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;">Punched with 8 disc slots for</span><span style="color: rgb(17, 17, 17);font-family: Arial, sans-serif;font-size: 13px;"> Levenger Circa and Staples ARC Junior size notebooks.</span>
+</li>
+</ul><p style="margin-bottom:11px;color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;"><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;">This is a complete monthly and weekly planner insert for the popular Levenger Circa and Staples ARC Junior size notebooks. The page size is 5.5" x 8.5". It is fully dated</span><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;"> includes US (or other) Holidays and observances. </span><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;"> Each week is on two pages with Mon-Fri on the left and Sat-Sun plus organizer sections on the right. The monthly calendars, if a monthly option is selected, provide 2 pages per month, with durable plastic tabs. Unless the "No Monthly Pages" option is selected, the monthly pages are merged into the weekly pages so that the monthly spread comes just before the weekly spread containing the first day of that month. Also included are yearly calendars for current year and next year. The style of monthly spread can be selected as:</span></p><p style="margin-bottom:11px;"><span style="color: rgb(115, 115, 115);font-family: verdana, arial, helvetica, sans-serif;font-size: small;font-weight: bold;">No Monthly Pages</span><span style="color: rgb(115, 115, 115);font-family: verdana, arial, helvetica, sans-serif;font-size: small;">: The monthly spreads are omitted, i.e. the planner is weekly only.</span><span style="color: rgb(115, 115, 115);font-family: verdana, arial, helvetica, sans-serif;font-size: small;"><br></span></p><p style="margin-bottom:11px;color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;"><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;"><span style="font-weight: bold;"><span style="text-decoration: underline;"><a target="" href="http://handyforms.com/products/lvj-monthly-planner-2-pages-per-month-6-columns-no-lines6%20column">6 column</a></span>:</span> Mon-Tue-Wed on the left, Thu-Fri-Sat/Sun on the right.</span></p><p style="margin-bottom:11px;color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;"><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;"><span style="font-weight: bold;"><span style="text-decoration: underline;"><a target="" href="http://handyforms.com/products/lvj-monthly-planner-2-pages-per-month-7-columns-no-lines">7 column</a></span>:</span> Mon-Tue-Wed-Thu</span><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;"> </span><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;">(or Sun-Mon-Tue-Wed) </span><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;">on the left and Fri-Sat-Sun (or Thu-Fri-Sat) on the right, plus notes and mini-calendars for coming months. End-of-month orphaned days have separate blocks.</span></p><p style="margin-bottom:11px;color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;"><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;"><span style="font-weight: bold;"><span style="text-decoration: underline;"><a target="" href="http://handyforms.com/products/lvj-monthly-planner-2-pages-per-month-8-columns-no-lines8%20column">8 column</a></span></span> similar to 7 column above, except end-of-month orphaned days share blocks.</span></p><p style="margin-bottom:11px;color: rgb(115, 115, 115);font-family: 'Open Sans', sans-serif;"><span style="font-family: verdana, arial, helvetica, sans-serif;font-size: small;">Please select the above links for examples of 6 column, 7 column, and 8 column monthly styles.</span></p>
+      </div>
+    </div>
+    
+    <div class="single-product-share">
+                <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+          <a class="addthis_button_preferred_1"></a>
+          <a class="addthis_button_preferred_2"></a>
+          <a class="addthis_button_preferred_3"></a>
+          <a class="addthis_button_preferred_4"></a>
+          <a class="addthis_button_compact"></a>
+          <a class="addthis_counter addthis_bubble_style"></a>
+          </div>
+          <script type="text/javascript">DeferredLoader.addScript("//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-533b315e1e8a93af");</script>
+          <!-- AddThis Button END -->
+
+    </div>
+    
+
+  </div>
+  <div class="col-sm-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+         
+
+<div class="single-product-price" id="product-price" data-price="$14.50" >
+  
+  <span id="regular-price">$14.50</span>
+  <span id="sale-price"></span>
+  
+  
+</div>
+      </div>
+      <form id="product-form" class="form-vertical panel-body">
+        <script type="text/javascript">
+window.variantMap = {"71-27":{"value_ids":["71","27"],"id":2954,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"71-28":{"value_ids":["71","28"],"id":2955,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"71-29":{"value_ids":["71","29"],"id":2956,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"71-33":{"value_ids":["71","33"],"id":2957,"price":14.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"89-27":{"value_ids":["89","27"],"id":2958,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"89-28":{"value_ids":["89","28"],"id":2959,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"89-29":{"value_ids":["89","29"],"id":2960,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"89-33":{"value_ids":["89","33"],"id":2961,"price":14.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"118-27":{"value_ids":["118","27"],"id":3637,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"118-28":{"value_ids":["118","28"],"id":3638,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"118-29":{"value_ids":["118","29"],"id":3639,"price":17.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"118-33":{"value_ids":["118","33"],"id":3640,"price":14.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false},"-":{"value_ids":["",""],"id":1419,"price":14.5,"price_sale":0.0,"on_sale":false,"out_of_stock":false}} || {};
+</script>
+
+<div class="required-legend pull-right" style="display: none;">Required</div>
+
+
+  
+  <div class="product-option-group form-group">
+  <label for="product_option_select_7"  class="required" >Year</label>
+
+  <select required class="product-option-select form-control" id="product_option_select_7" data-name="Year" data-id="7">
+    
+
+    
+      
+      <option value="71" >2019</option>
+    
+      
+      <option value="89" >2020</option>
+    
+      
+      <option value="118" >2021</option>
+    
+  </select>
+
+  
+    <div class="text-danger option-error" style="display: none" data-name="Year"></div>
+  
+</div>
+
+
+  
+  <div class="product-option-group form-group">
+  <label for="product_option_select_11"  class="required" >Monthly Style</label>
+
+  <select required class="product-option-select form-control" id="product_option_select_11" data-name="Monthly Style" data-id="11">
+    
+
+    
+      
+      <option value="27" >6 Column</option>
+    
+      
+      <option value="28" >7 Column</option>
+    
+      
+      <option value="29" >8 Column</option>
+    
+      
+      <option value="33" >No Monthly Pages</option>
+    
+  </select>
+
+  
+    <div class="text-danger option-error" style="display: none" data-name="Monthly Style"></div>
+  
+</div>
+
+
+  
+  <div class="form-group">
+  
+  <label><input type="checkbox" class="use_personalization increase_price" data-price-increase="5.0" data-name="Customize" data-id="380"> Customize <span class="personalization-increase-price-wrapper">(+ $5.00)</span></label>
+  
+  
+  
+  <div class="personalization-text-wrapper" style="display:none">
+    <span class="nemo-note text-muted">Describe your customization requirements</span>
+    
+    <textarea rows="3" class="personalization_text form-control" data-maxlength="800" ></textarea>
+    
+  </div>
+  <div class="text-danger option-error personalization-error" style="display: none" data-name="Customize"></div>
+</div>
+
+
+  
+  <div class="product-option-group form-group">
+  <label for="product_option_select_381"  class="required" >Holidays</label>
+
+  <select required class="list-option-select use_personalization form-control" id="product_option_select_381" data-name="Holidays" data-id="381">
+    
+
+    
+      
+      <option value="17" >US</option>
+    
+      
+      <option value="18" >Canada</option>
+    
+      
+      <option value="19" >UK</option>
+    
+      
+      <option value="20" >Ireland</option>
+    
+      
+      <option value="22" >None</option>
+    
+      
+      <option value="23" >Other *(Customize)</option>
+    
+  </select>
+
+  
+    <div class="text-danger option-error" style="display: none" data-name="Holidays"></div>
+  
+</div>
+
+
+  
+  <div class="product-option-group form-group">
+  <label for="product_option_select_382"  class="required" >Include Moon Phases?</label>
+
+  <select required class="list-option-select use_personalization form-control" id="product_option_select_382" data-name="Include Moon Phases?" data-id="382">
+    
+
+    
+      
+      <option value="25" >No</option>
+    
+      
+      <option value="24" >Yes</option>
+    
+  </select>
+
+  
+    <div class="text-danger option-error" style="display: none" data-name="Include Moon Phases?"></div>
+  
+</div>
+
+
+  
+  <div class="form-group">
+  
+  <label><input type="checkbox" class="use_personalization increase_price" data-price-increase="0.0" data-name="Notes About Order" data-id="428"> Notes About Order </label>
+  
+  
+  
+  <div class="personalization-text-wrapper" style="display:none">
+    <span class="nemo-note text-muted">Please enter any comments or notes about your order.</span>
+    
+    <textarea rows="3" class="personalization_text form-control" data-maxlength="255" ></textarea>
+    
+  </div>
+  <div class="text-danger option-error personalization-error" style="display: none" data-name="Notes About Order"></div>
+</div>
+
+
+
+        <div class="form-group form-group-qty">
+          <label>QTY</label>
+          <input type="number" id="product-quantity" class="form-control single-product-qty input-sm" name="quantity" min="1" max="999" value="1" pattern="[0-9]*">
+          <input type="hidden" name="variant_id" value="1419">
+        </div>
+        <div class="form-group text-center">
+          <input type="submit" value="Add to Cart" data-adding="ADDING TO CART..." class="btn btn-primary" id="product-submit" >
+        </div>
+        <div id="quantity-warning">
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+	
+
+
+
+</div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<div class="reviews">
+  <div class="row products-title">
+    <div class="col-sm-12">
+      <h2><span>Reviews</span></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="yotpo yotpo-main-widget"
+     data-product-id="213"
+     data-name="LVJ Weekly Planner, 2 Pages per Week, 2 Pages per Month, Plus Organizer Page (Style D)"
+     data-url="https%3A%2F%2Fhandyforms.com%2Fproducts%2Flvj-weekly-planner-2-pages-per-week-2-pages-per-month-plus-organizer-page-style-d"
+     data-image-url="https%3A%2F%2Fisteam.wsimg.com%2Fip%2Fa5c6a357-9878-11e5-a590-f04da2077796%2Fols%2F515_original%2F%3A%2Frs%3Dw%3A600%2Ch%3A600"
+     data-description="Ideal for customizing by adding special organizer sections.
+
+
+Weekly and monthly planner for Levenger Circa and Staples ARC Junior size notebooks. Fully dated. Lines in weekly and monthly blocks.
+
+
+2 pages per month monthly planner with tabs (monthly pages can be omitted).
+
+Week days Monday-Friday on left facing page, Saturday-Sunday on the right. Right-facing page also has spaces for To-Do, and Notes.
+
+Includes yearly calendars for current year and next year.
+
+
+Page size is 5.5&quot; x 8.5&quot;. High quality, heavy weight, ultra smooth paper. Acid-free. Paper produced from FSC certified forests.
+
+
+Punched with 8 disc slots for Levenger Circa and Staples ARC Junior size notebooks.
+
+This is a complete monthly and weekly planner insert for the popular Levenger Circa and Staples ARC Junior size notebooks. The page size is 5.5&quot; x 8.5&quot;. It is fully dated includes US (or other) Holidays and observances.  Each week is on two pages with Mon-Fri on the left and Sat-Sun plus organizer sections on the right. The monthly calendars, if a monthly option is selected, provide 2 pages per month, with durable plastic tabs. Unless the &quot;No Monthly Pages&quot; option is selected, the monthly pages are merged into the weekly pages so that the monthly spread comes just before the weekly spread containing the first day of that month. Also included are yearly calendars for current year and next year. The style of monthly spread can be selected as:No Monthly Pages: The monthly spreads are omitted, i.e. the planner is weekly only.6 column: Mon-Tue-Wed on the left, Thu-Fri-Sat/Sun on the right.7 column: Mon-Tue-Wed-Thu (or Sun-Mon-Tue-Wed) on the left and Fri-Sat-Sun (or Thu-Fri-Sat) on the right, plus notes and mini-calendars for coming months. End-of-month orphaned days have separate blocks.8 column similar to 7 column above, except end-of-month orphaned days share blocks.Please select the above links for examples of 6 column, 7 column, and 8 column monthly styles."></div>
+
+  </div>
+</div>
+
+
+
+
+
+
+<div class="products featured-products">
+  <div class="row products-title">
+    <div class="col-sm-12">
+      <h2><span>Featured Products</span></h2>
+    </div>
+  </div>
+  <div class="row">
+
+
+
+
+<div class="col-sm-3 col-xs-6">
+  <div class="product">
+    <a class="product-link" href="/products/fcc-daily-task-list" >
+      <div class="product-thumb">
+        <div class="product-thumb-inner">
+          <img src="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/3_original/:/rs=w:240,h:240"
+          alt="FCC Daily Task List">
+        </div>
+      </div>
+      <span class="product-title" href="/products/fcc-daily-task-list">FCC Daily Task List</span>
+    </a>
+    
+    <div class="product-price">$6.50</div>
+    
+    
+    
+    <div class="review-wrapper">
+      <div class="single-product-review">
+        <div class="yotpo bottomLine" style="display:inline-block; width:auto;"
+  data-appkey="SikM01vhUjBnRV2exx8xkk3yB0JgZ0KXUtHHd7lO"
+  data-domain="https://handyforms.com"
+  data-product-id="1"
+  data-name="FCC Daily Task List"
+  data-url="https%3A%2F%2Fhandyforms.com%2Fproducts%2Ffcc-daily-task-list"
+  data-image-url="https%3A%2F%2Fisteam.wsimg.com%2Fip%2Fa5c6a357-9878-11e5-a590-f04da2077796%2Fols%2F3_original%2F%3A%2Frs%3Dw%3A600%2Ch%3A600">
+</div>
+
+      </div>
+    </div>
+    
+ </div>
+</div>
+
+
+
+
+<div class="col-sm-3 col-xs-6">
+  <div class="product">
+    <a class="product-link" href="/products/fcc-payment-expense-record-and-check-register" >
+      <div class="product-thumb">
+        <div class="product-thumb-inner">
+          <img src="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/7_original/:/rs=w:240,h:240"
+          alt="FCC Payment / Expense Record and Check Register">
+        </div>
+      </div>
+      <span class="product-title" href="/products/fcc-payment-expense-record-and-check-register">FCC Payment / Expense Record and Check Register</span>
+    </a>
+    
+    <div class="product-price">$6.50</div>
+    
+    
+    
+    <div class="review-wrapper">
+      <div class="single-product-review">
+        <div class="yotpo bottomLine" style="display:inline-block; width:auto;"
+  data-appkey="SikM01vhUjBnRV2exx8xkk3yB0JgZ0KXUtHHd7lO"
+  data-domain="https://handyforms.com"
+  data-product-id="2"
+  data-name="FCC Payment / Expense Record and Check Register"
+  data-url="https%3A%2F%2Fhandyforms.com%2Fproducts%2Ffcc-payment-expense-record-and-check-register"
+  data-image-url="https%3A%2F%2Fisteam.wsimg.com%2Fip%2Fa5c6a357-9878-11e5-a590-f04da2077796%2Fols%2F7_original%2F%3A%2Frs%3Dw%3A600%2Ch%3A600">
+</div>
+
+      </div>
+    </div>
+    
+ </div>
+</div>
+
+
+
+
+<div class="col-sm-3 col-xs-6">
+  <div class="product">
+    <a class="product-link" href="/products/fcc-to-do-checklist-with-priority-and-due-date" >
+      <div class="product-thumb">
+        <div class="product-thumb-inner">
+          <img src="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/8_original/:/rs=w:240,h:240"
+          alt="FCC To-Do Checklist with Priority and Due Date">
+        </div>
+      </div>
+      <span class="product-title" href="/products/fcc-to-do-checklist-with-priority-and-due-date">FCC To-Do Checklist with Priority and Due Date</span>
+    </a>
+    
+    <div class="product-price">$6.50</div>
+    
+    
+    
+    <div class="review-wrapper">
+      <div class="single-product-review">
+        <div class="yotpo bottomLine" style="display:inline-block; width:auto;"
+  data-appkey="SikM01vhUjBnRV2exx8xkk3yB0JgZ0KXUtHHd7lO"
+  data-domain="https://handyforms.com"
+  data-product-id="3"
+  data-name="FCC To-Do Checklist with Priority and Due Date"
+  data-url="https%3A%2F%2Fhandyforms.com%2Fproducts%2Ffcc-to-do-checklist-with-priority-and-due-date"
+  data-image-url="https%3A%2F%2Fisteam.wsimg.com%2Fip%2Fa5c6a357-9878-11e5-a590-f04da2077796%2Fols%2F8_original%2F%3A%2Frs%3Dw%3A600%2Ch%3A600">
+</div>
+
+      </div>
+    </div>
+    
+ </div>
+</div>
+
+
+
+
+<div class="col-sm-3 col-xs-6">
+  <div class="product">
+    <a class="product-link" href="/products/fcc-note-pages" >
+      <div class="product-thumb">
+        <div class="product-thumb-inner">
+          <img src="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/9_original/:/rs=w:240,h:240"
+          alt="FCC Note Pages">
+        </div>
+      </div>
+      <span class="product-title" href="/products/fcc-note-pages">FCC Note Pages</span>
+    </a>
+    
+    <div class="product-price">$6.50</div>
+    
+    
+    
+    <div class="review-wrapper">
+      <div class="single-product-review">
+        <div class="yotpo bottomLine" style="display:inline-block; width:auto;"
+  data-appkey="SikM01vhUjBnRV2exx8xkk3yB0JgZ0KXUtHHd7lO"
+  data-domain="https://handyforms.com"
+  data-product-id="4"
+  data-name="FCC Note Pages"
+  data-url="https%3A%2F%2Fhandyforms.com%2Fproducts%2Ffcc-note-pages"
+  data-image-url="https%3A%2F%2Fisteam.wsimg.com%2Fip%2Fa5c6a357-9878-11e5-a590-f04da2077796%2Fols%2F9_original%2F%3A%2Frs%3Dw%3A600%2Ch%3A600">
+</div>
+
+      </div>
+    </div>
+    
+ </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="product-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">LVJ Weekly Planner, 2 Pages per Week, 2 Pages per Month, Plus Organizer Page (Style D)</h4>
+      </div>
+      <div class="modal-body">
+        <img id="product-image-modal" class="img-responsive" src="https://isteam.wsimg.com/ip/a5c6a357-9878-11e5-a590-f04da2077796/ols/515_original/:/rs=w:600,h:600">
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <div class="row footer">
+    <div class="col-sm-6">
+      <ul class="nav nav-pills">
+        <li>
+      		<a href="/products" id="featured-all">View All Products</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+        <ul class="nav nav-pills" id="footer-nav">
+	
+	<li class=""><a  href="/">Home</a></li>
+	
+	<li class=""><a  href="/products">Shop</a></li>
+	
+	<li class=""><a  href="/about">Our Story</a></li>
+	
+	<li class=""><a  href="/contact">Contact Us</a></li>
+	
+</ul>
+
+    </div>
+  </div>
+
+  <div class="row footer-extra">
+    <div class="col-sm-12">
+      <div class="connect">
+        <div id="email-widget-wrapper">
+  <form class="email-widget">
+    <label class="label-xlarge">Join our email list for the latest news!</label>
+    <div class="input-row clearfix">
+      <input class="email-input" name="email" placeholder="Email" />
+      <button type="submit">
+        <div class="common-icon-arrow-right"></div>
+      </button>
+      <div class="email-error"></div>
+    </div>
+  </form>
+  <div class="email-success-wrapper">
+    <div class="inset">
+      <span class="common-icon-checkmark"></span>
+      <span class="email-success"></span>
+    </div>
+  </div>
+</div>
+
+        
+      </div>
+
+      <div class="" id="payment-logos">
+  
+    
+    <img class="payment-logo paypal_express apple_pay" src="//onlinestore.wsimg.com/assets/themes/__master/assets/images/paypal-fa7e005dd4c24ec8b1187849b1aa37824d8e5a744ce73c72145c3471e549acfa.png" alt="PayPal" />
+    
+    <img class="payment-logo credit_card apple_pay" src="//onlinestore.wsimg.com/assets/themes/__master/assets/images/credit_card_with_apple-dae33460c7e6f92e4fa3e999ad147e5290ebc8d4dd5de80642d1ad21c10cce92.png" alt="Credit Card" />
+    
+  
+</div>
+
+
+      <div id="copyright">Copyright &copy; 2019 Handy Forms LLC
+  
+</div>
+    </div>
+  </div>
+
+</div><!--End Container-->
+
+<script type="text/javascript" src="//onlinestore.wsimg.com/assets/themes/008/V1/assets/javascripts/jquery.min-ecbbc9517c3b45f88b889d98c6ad167995ed49522b7f2cf323e1b32700f236f0.js"></script>
+<script type="text/javascript" src="//onlinestore.wsimg.com/assets/themes/008/V1/assets/javascripts/bootstrap.min-a2f520692df7d377f513dfb135239e9be3dbb5b6613c4c603beb5665fe44a4e7.js"></script>
+<script type="text/javascript" src="//onlinestore.wsimg.com/assets/themes/__master/assets/javascripts/lib/jquery.bxslider.min-ff876bc21a7ce03a7320d5cc39e259a5723e82c7731e6349787b0c5dcec956b2.js"></script>
+<script type="text/javascript" src="//onlinestore.wsimg.com/assets/themes/008/V1/assets/javascripts/theme-65be81d433a1004344f905a9a8c9967b070bacacb21914806b5807f8f001dfbc.js"></script>
+<script type="text/javascript" src="//onlinestore.wsimg.com/assets/themes/__master/assets/javascripts/nemo-894c9cd4454700922d8f386355d6f97889b4bdbb9fce7c16cc2c91b37910f716.js"></script>
+<script type="text/javascript" src="//onlinestore.wsimg.com/assets/themes/__master/assets/javascripts/lib/email_widget-3fea23d6f7b44abec2f7caee63265280899b05245f4f19a46ab170b4637ad3fa.js"></script>
+
+
+
+
+<script>
+  window.CART_COUNT_ONE = "View Cart (1 Item)";
+  window.CART_COUNT_OTHER = "View Cart (%count% Items)";
+</script>
+<script>
+window.CART_COUNT_ONE = window.CART_COUNT_ONE || "Cart&nbsp;(1)";
+window.CART_COUNT_OTHER = window.CART_COUNT_OTHER || "Cart&nbsp;(%count%)";
+
+jQuery(function($) {
+  $(window).load( function() {
+    $.get(Nemo.getURL('cart_count'), function (data) {
+      var quantity = data.total_quantity || 0
+      if ($("#cart-count").length) {
+        var countString = window.CART_COUNT_OTHER.replace('%count%', quantity);
+        if (quantity === 1 && window.CART_COUNT_ONE) {
+          countString = window.CART_COUNT_ONE;
+        }
+        $("#cart-count").html(countString);
+      }
+      if (quantity > 0) {
+        if ($("#checkout-link")) {
+          $("#checkout-link").show();
+        }
+        if ($("#cart-display")) {
+          $("#cart-display").show();
+        }
+      }
+    });
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+  window.sfEventMap = {
+    // START checkout events
+
+    // Any page
+    'checkout_click_cart': ['nemo-storefront-checkout', 'click-cart'],
+    'checkout_click_checkout': ['nemo-storefront-checkout', 'click-checkout'],
+
+    // Any checkout page
+    'checkout_click_edit_cart': ['nemo-storefront-checkout', 'click-edit-cart'],
+    'checkout_click_progress_address': ['nemo-storefront-checkout', 'click-progress-address'],
+    'checkout_click_progress_payment': ['nemo-storefront-checkout', 'click-progress-payment'],
+    'checkout_receive_error': ['nemo-storefront-checkout', 'receive-error'],
+
+    // Cart page
+    'checkout_cart_click_checkout': ['nemo-storefront-checkout-cart', 'click-checkout'],
+    'checkout_cart_click_update': ['nemo-storefront-checkout-cart', 'click-update'],
+    'checkout_cart_click_keep_shopping': ['nemo-storefront-checkout-cart', 'click-keep-shopping'],
+
+    // Address page
+    'checkout_address_click_shipping_checkbox': ['nemo-storefront-checkout-address', 'click-shipping-address-is-same-as-billing-checkbox'],
+    'checkout_address_click_continue': ['nemo-storefront-checkout-address', 'click-continue'],
+    'checkout_address_click_return_to_store': ['nemo-storefront-checkout-address', 'click-return-to-store'],
+    'checkout_address_click_paypal_redirect_button': ['nemo-storefront-checkout-address', 'click-paypal-redirect-button'],
+
+    // Payment page
+    'checkout_payment_click_edit_shipping_address': ['nemo-storefront-checkout-payment', 'click-edit-shipping-address'],
+    'checkout_payment_click_edit_billing_address': ['nemo-storefront-checkout-payment', 'click-edit-billing-address'],
+    'checkout_payment_click_payment_method_radio_option': ['nemo-storefront-checkout-payment', 'click-payment-method-radio-option'],
+    'checkout_payment_click_place_order': ['nemo-storefront-checkout-payment', 'click-place-order'],
+    'checkout_payment_click_check_out_with_paypal_button': ['nemo-storefront-checkout-payment', 'click-check-out-with-paypal-button'],
+    'checkout_payment_click_check_out_with_mercado_pago_button': ['nemo-storefront-checkout-payment', 'click-check-out-with-mercado-pago-button'],
+    'checkout_payment_click_finalize_paypal_redirect_button': ['nemo-storefront-checkout-payment', 'click-finalize-paypal-redirect-button'],
+    'checkout_payment_click_apply_coupon': ['nemo-storefront-checkout-payment', 'click-apply-coupon'],
+    'checkout_payment_receive_stripe_error': ['nemo-storefront-checkout-payment', 'receive-stripe-error'],
+
+    // Confirm page
+    'checkout_confirm_click_return_to_store': ['nemo-storefront-checkout-confirm', 'click-return-to-store'],
+    'checkout_confirm_click_contact_us': ['nemo-storefront-checkout-confirm', 'click-contact-us']
+
+    // END checkout events
+  };
+
+  // Make the object immutable
+  Object.freeze(window.sfEventMap);
+</script>
+
+
+<script type="text/javascript">
+  window.VISIBILITY_ANIMATION_SPEED = 300;
+  // Add GA to global cart icon and checkout link with JS since both are in unique files for every theme (i.e. due to laziness).
+  // However, theme 010 has a different header structure, so the data-ga label for the checkout link was added onto the element in the liquid file.
+  var $cartIcon = $('a#cart-info[href="/cart"]');
+  var $cartIconWrapper;
+
+  if ($cartIcon && $cartIcon.length) {
+    $cartIcon.attr('data-ga', 'checkout_click_cart');
+  } else {
+    $cartIconWrapper = $('#cart-info');
+    $cartIconWrapper.find('a[href="/cart"]').attr('data-ga', 'checkout_click_cart');
+    $cartIconWrapper.find('a[href="/checkout"]').attr('data-ga', 'checkout_click_checkout');
+  }
+
+  // START Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // Create GA tracker for Nemo Product Manager to track the storefront
+  ga('create', 'UA-85190973-1', 'auto', 'nemoPmTracker');
+
+  
+    // Create GA tracker for merchant
+    ga('create', 'UA-70939615-1', 'auto', {
+      name: 'merchantTracker',
+      allowLinker: true
+    });
+    ga('merchantTracker.require', 'linker'); // Load the plugin.
+    ga('merchantTracker.linker:autoLink', ['handyforms.com', 'mysimplestore.com']); // Define which domains to autoLink.
+    ga('merchantTracker.send', 'pageview');
+  
+
+  window.trackEvent = function (eventKey, label) {
+    if (typeof window.sfEventMap !== 'undefined') {
+      var eventValue = window.sfEventMap[eventKey];
+
+      if (!eventValue) {
+        return;
+      }
+
+      ga('nemoPmTracker.send', {
+        hitType: 'event',
+        eventCategory: eventValue[0],
+        eventAction: eventValue[1],
+        eventLabel: label
+      });
+    }
+  };
+
+  window.trackPageview = function (pagePath) {
+    if (!pagePath) {
+      return;
+    }
+
+    ga('nemoPmTracker.send', {
+      hitType: 'pageview',
+      page: pagePath
+    });
+  };
+  // END Google Analytics
+
+    if ($) {
+      // Listener for GA
+      $(document).ready(function () {
+        $(document).on('click', '[data-ga], [data-ga][data-ga-label]', function () {
+          var key = $(this).attr('data-ga');
+          var label = $(this).attr('data-ga-label');
+          window.trackEvent(key, label);
+        });
+      });
+
+      // GA: Track pageview for checkout pages and order confirmation page
+      
+
+      // GA: Track error event in checkout
+      
+
+      $.ajaxSetup({
+          headers: {
+              'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+          }
+      });
+
+
+      
+
+      // Cart remove logic
+      $(document).on('click', '.cart-remove', function () {
+          var $form = $(this).closest('form'),
+              $quantity = $(this).closest('tr').find('.cart-quantity');
+
+          $('.cart-remove').addClass('cart-remove-disable')
+          $form.find('button').attr('disabled', 'disabled');
+          $quantity.val(0);
+          $form.submit();
+      });
+
+      // Attach a submit handler to the contact form
+      $(document).on('submit', '#contact-form', function (event) {
+          //Stop normal form submision
+          event.preventDefault();
+          var formData =  $('#contact-form').serialize();
+
+          Nemo.submitFormData({
+              data: formData,
+              method: "POST",
+              always: function (res) {
+                  if (res) {
+                      $('#contact-form-box').replaceWith(res);
+                  }
+              }
+          });
+
+          return false;
+      });
+    }
+</script>
+
+
+    <script type="text/javascript" src="//onlinestore.wsimg.com/assets/themes/__master/assets/javascripts/pages/products-bcbcb70d3d1d9f347979783343eef58a19660c951979473641abbe75fe1d9dd5.js"></script>
+
+
+<script type="text/javascript" src="//onlinestore.wsimg.com/assets/themes/__master/assets/javascripts/lib/jquery.cookie-e9703d26744209e6a8c89c89a2b129f1c860fd708a1d958f6a6056c79b82ccb3.js"></script>
+
+<script type="text/javascript">DeferredLoader.addScript("//staticw2.yotpo.com/SikM01vhUjBnRV2exx8xkk3yB0JgZ0KXUtHHd7lO/widget.js");</script>
+
+
+
+
+
+
+
+
+
+
+
+
+            <script>
+              "undefined"==typeof _trfd&&(window._trfd=[]),
+              _trfd.push({"tccl.baseHost":"secureserver.net"});
+              _trfd.push({"ap":"OLS"});
+              
+            </script>
+            <script src="//img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js">
+            </script>
+
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lora:400,700&display=swap');
+
+
+
+body {
+  background-image: url('');
+  background-size: auto 60%;
+  background-color: mintcream;
+  color: #2f4435;
+  font-size: 1.25em;
+  line-height: 1em;
+  text-align: center;  
+  font: 400 normal 1em/2 'lora', times, arial, sans-serif;
+  
+}
+
+.logo {
+  max-height: 30em;
+  margin-top: 4em;
+}
+
+.productoptions  {
+  display: inline-block;
+}
+
+.productname  {
+  background-color: rgb(152, 170, 169);
+  font-size: 1.70em;
+  border-color: #263029a4;
+
+}
+
+.navbar {
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  padding-top: 1em;
+  display: inline-block;
+  background-color:  rgba(152, 170, 169);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+
+}
+
+.transluscenttext {
+  color: #263029a4;
+}
+
+.productimg {
+  width: 80%;
+  max-width: 40em;
+
+}
+
+.productdisc  {
+font-size: 0.9em;
+padding: 1em 1em;
+color: #263029a4;
+align-content: center;
+}
+
+.filterpens {
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+} 
+
+.prod-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.prod-info-pens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.set-price  {
+  display: block;
+}
+
+.pagination {
+  display: inline;
+  text-align: center;
+  margin: 0 0.25em;
+
+}
+
+.terms  {
+  font-size: 0.9em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.socialmedia  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+@media screen and (min-width: 40em) {
+  body {
+    background-color: mintcream;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .logo {
+    align-content: left;
+
+  }
+
+  }
+
+
+@media screen and (min-width: 60em) {
+  body {
+    background-color: mintcream;
+  }
+  .layout {
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  }

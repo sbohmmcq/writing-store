@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document title</title>
+    <meta name="description" content="[A short description]">
+    <meta name="author" content="[Your Name]">
+    <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <!-- Site logo, replace with your own -->
+      <a href="index.html"><img class="logo" src="img/www-logo.png" alt="winter white writing logo"></a>
+
+      <!-- Navigation menu and toggle button (non-functional) -->
+
+
+      <nav aria-label="Primary">
+          
+        <ul class="navbar">
+          <li><button type="button">
+                <span class="material-icons">menu</span>
+            </button></li>
+          <li><a href="#"><span class="material-icons">favorite_border</span></a></li>
+          <li><a href="#"><span class="material-icons">shopping_cart</span></a></li>
+        </ul>
+
+        <ul>
+          <li><a href="/index.html">Notebooks</a>
+            <ul>
+              <li><a href="/pens.html">pens</a></li>
+            </ul>
+        </ul>
+      </nav>
+
+      <!-- Search for a product (non-functional) -->
+      <form>
+        <label>Search
+          <input type="search" name="find" id="find">
+        </label>
+        <button type="button"><span class="material-icons">search</span></button>
+      </form>
+
+      <!-- Additional nav links -->
+
+    
+    </header>
+
+    <main>
+      <header>
+        <h1>sale on NOTEBOOKS</h1>
+
+        <!-- Filtering product form -->
+        <form>
+          <h2>filter</h2>
+          <fieldset>
+            <label for="sort">Show</label>
+            <select name="sort" id="sort">
+              <option value="price-high">Price, highest to lowest</option>
+              <option value="price-low">Price, lowest to highest</option>
+              <option value="newest">Newest releases</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>STYLE</legend>
+            <ul class="filter">
+              <li><input type="checkbox" name="colour" value="p" id="plain"> <label for="plain">plain</label></li>
+              <li><input type="checkbox" name="colour" value="l" id="lined"> <label for="lined">lined</label></li>
+              <li><input type="checkbox" name="colour" value="g" id="graph"> <label for="graph">graph</label></li>
+              <li><input type="checkbox" name="colour" value="d" id="dotted"> <label for="dotted">dotted</label></li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>SIZE</legend>
+            <ul class="filter">
+              <li><input type="checkbox" name="size" value="a3" id="a3"> <label for="a3">A3</label></li>
+              <li><input type="checkbox" name="size" value="a4" id="a4"> <label for="a4">A4</label></li>
+              <li><input type="checkbox" name="size" value="a5" id="a5"> <label for="a5">A5</label></li>
+              <li><input type="checkbox" name="size" value="a6" id="a6"> <label for="a6">A6</label></li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Ratings (above)</legend>
+            <ol>
+              <li>
+                <input type="radio" name="rating" value="4" id="aboveFour">
+                <label for="aboveFour">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="rating" value="3" id="aboveThree">
+                <label for="aboveThree">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="rating" value="2" id="aboveTwo">
+                <label for="aboveTwo">
+                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="rating" value="1" id="aboveOne">
+                <label for="aboveOne">
+                  <span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
+                </label>
+              </li>
+            </ol>
+          </fieldset>
+        </form>
+      </header>
+
+      <section>
+        <h2>Results</h2>
+
+        <!-- Product 1 -->
+        <div class="layout">
+        <article>
+          <header>
+            <img class="productimg" src="img/hard-notebook.jpg" alt="Hardcover Notebooks">
+          </header>
+          <h3 class="productname">hardcover notebook</h3>
+          <p class="productdisc">high quality paper bound in a black leather hardcover</p>
+          <form class="prod-info">            
+            <fieldset>
+              <legend>STYLE</legend>
+              <ul>
+                <li><label><input type="radio" name="colour" value="p"> plain</label></li>
+                <li><label><input type="radio" name="colour" value="l"> lined</label></li>
+                <li><label><input type="radio" name="colour" value="g"> graph</label></li>
+                <li><label><input type="radio" name="colour" value="d"> dotted</label></li>
+              </ul>
+            </fieldset>
+
+            <fieldset>
+              <legend>SIZE</legend>
+              <ul>
+                <li><label><input type="radio" name="size" value="a3"> A3</label></li>
+                <li><label><input type="radio" name="size" value="a4"> A4</label></li>
+                <li><label><input type="radio" name="size" value="a5"> A5</label></li>
+                <li><label><input type="radio" name="size" value="a6"> A6</label></li>
+              </ul>
+            </fieldset>
+
+            <footer>
+              <dl>
+                <dt></dt>
+                <dd class="transluscenttext">4.7 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              </dl>
+              <data value="19"><del>$25.00</del> <ins>$19.00</ins></data>
+              <button type="button"><span class="material-icons">add_shopping_cart</span></button>
+            </footer>
+          </form>
+        </article>
+
+        <!-- Product 2 -->
+        <article>
+          <header>
+            <img class="productimg" src="img/soft-notebook.jpeg" alt="softcover notebook">
+          </header>
+          <h3 class="productname">softcover notebooks</h3>
+          <p class="productdisc">high quality paper bound in a black leather softcover</p>
+          <form class="prod-info">
+            <fieldset>
+              <legend>STYLE</legend>
+              <ul>
+                <li><label><input type="radio" name="colour" value="p"> plain</label></li>
+                <li><label><input type="radio" name="colour" value="l"> lined</label></li>
+                <li><label><input type="radio" name="colour" value="g"> graph</label></li>
+                <li><label><input type="radio" name="colour" value="d"> dotted</label></li>
+              </ul>
+            </fieldset>
+
+            <fieldset> 
+              <legend>SIZE</legend>
+              <ul>
+                <li><label><input type="radio" name="size" value="a3"> A3</label></li>
+                <li><label><input type="radio" name="size" value="a4"> A4</label></li>
+                <li><label><input type="radio" name="size" value="a5"> A5</label></li>
+                <li><label><input type="radio" name="size" value="a6"> A6</label></li>
+              </ul>
+            </fieldset>
+
+            <footer>
+              <dl>
+                <dd class="transluscenttext">4.5 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              </dl>
+              <data value="17"><del>$23.00</del> <ins>$17.00</ins></data>
+              <button type="button"><span class="material-icons">add_shopping_cart</span></button>
+            </footer>
+          </form>
+        </article>
+
+        <!-- Product 3 -->
+        <article>
+          <header>
+            <img class="productimg" src="img/ring-notebook.jpg" alt="ring notebook">
+          </header>
+          <h3 class="productname">ring notebook</h3>
+          <p class="productdisc">high quality paper ring bound in a black leather hardcover</p>
+          <form class="prod-info">
+            <fieldset class="fieldset">
+              <legend>STYLE</legend>
+              <ul>
+                <li><label><input type="radio" name="colour" value="p"> plain</label></li>
+                <li><label><input type="radio" name="colour" value="l"> lined</label></li>
+                <li><label><input type="radio" name="colour" value="g"> graph</label></li>
+                <li><label><input type="radio" name="colour" value="d"> dotted</label></li>
+              </ul>
+            </fieldset>
+
+            <fieldset class="fieldset"> 
+              <legend>SIZE</legend>
+              <ul>
+                <li><label><input type="radio" name="size" value="a3"> A3</label></li>
+                <li><label><input type="radio" name="size" value="a4"> A4</label></li>
+                <li><label><input type="radio" name="size" value="a5"> A5</label></li>
+                <li><label><input type="radio" name="size" value="a6"> A6</label></li>
+              </ul>
+            </fieldset>
+
+            <footer>
+              <dl>
+                <dd class="transluscenttext">4.3 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              </dl>
+              <data value="19"><del>$24.00</del> <ins>$19.00</ins></data>
+              <button type="button"><span class="material-icons">add_shopping_cart</span></button>
+            </footer>
+          </form>
+        </article>
+  
+        <!-- Product 4 -->
+        <article>
+          <header>
+            <img class="productimg" src="img/recycled-notebook.webp" alt="recycled notebook">
+          </header>
+          <h3 class="productname">recycled notebook</h3>
+          <p class="productdisc">recycled off-white paper bound in a recycled paper softcover</p>
+          <form class="prod-info">
+            <fieldset>
+              <legend>STYLE</legend>
+              <ul>
+                <li><label><input type="radio" name="colour" value="p"> plain</label></li>
+                <li><label><input type="radio" name="colour" value="l"> lined</label></li>
+                <li><label><input type="radio" name="colour" value="g"> graph</label></li>
+                <li><label><input type="radio" name="colour" value="d"> dotted</label></li>
+              </ul>
+            </fieldset>
+
+            <fieldset> 
+              <legend>SIZE</legend>
+              <ul>
+                <li><label><input type="radio" name="size" value="a3"> A3</label></li>
+                <li><label><input type="radio" name="size" value="a4"> A4</label></li>
+                <li><label><input type="radio" name="size" value="a5"> A5</label></li>
+                <li><label><input type="radio" name="size" value="a6"> A6</label></li>
+              </ul>
+            </fieldset>
+
+            <footer>
+              <dl>
+              <dd class="transluscenttext">4.6 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              </dl>
+              <data value="17"><ins>$17.00</ins></data>
+              <button type="button"><span class="material-icons">add_shopping_cart</span></button>
+            </footer>
+          </form>
+        </article>
+
+        <!-- Product 5 -->
+        <article>
+          <header>
+            <img class="productimg" src="img/sketchbook.jpg" alt="sketchbook">
+          </header>
+          <h3 class="productname">sketchbook</h3>
+          <p class="productdisc">high quality drawing paper ring bound in a recycled cardboard hardcover</p>
+          <form class="prod-info">
+            <fieldset>
+              <legend>STYLE</legend>
+              <ul>
+                <li><label><input type="radio" name="colour" value="p"> plain</label></li>
+                <li><label><input type="radio" name="colour" value="l"> lined</label></li>
+                <li><label><input type="radio" name="colour" value="g"> graph</label></li>
+                <li><label><input type="radio" name="colour" value="d"> dotted</label></li>
+              </ul>
+            </fieldset>
+
+            <fieldset> 
+              <legend>SIZE</legend>
+              <ul>
+                <li><label><input type="radio" name="size" value="a3"> A3</label></li>
+                <li><label><input type="radio" name="size" value="a4"> A4</label></li>
+                <li><label><input type="radio" name="size" value="a5"> A5</label></li>
+                <li><label><input type="radio" name="size" value="a6"> A6</label></li>
+              </ul>
+            </fieldset>
+
+            <footer>
+              <dl>
+              <dd class="transluscenttext">4.5 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              </dl>
+              <data value="25"><ins>$25.00</ins></data>
+              <button type="button"><span class="material-icons">add_shopping_cart</span></button>
+            </footer>
+          </form>
+        </article>
+        <!-- Product 6 -->
+        <article>
+          <header>
+            <img class="productimg" src="img/planner.jpg" alt="planner">
+          </header>
+          <h3 class="productname">planner</h3>
+          <p class="productdisc">high quality paper bound in a leather hardcover with dated pages to help organize your time</p>
+          <form class="prod-info">
+            <fieldset>
+              <legend>STYLE</legend>
+              <ul>
+                <li><label><input type="radio" name="colour" value="d"> daily</label></li>
+                <li><label><input type="radio" name="colour" value="w"> weekly</label></li>
+                <li><label><input type="radio" name="colour" value="m"> monthly</label></li>
+              </ul>
+            </fieldset>
+
+            <fieldset> 
+              <legend>SIZE</legend>
+              <ul>
+                <li><label><input type="radio" name="size" value="a4"> A4</label></li>
+                <li><label><input type="radio" name="size" value="a5"> A5</label></li>
+                <li><label><input type="radio" name="size" value="a6"> A6</label></li>
+              </ul>
+            </fieldset>
+
+            <footer>
+              <dl>
+              <dd class="transluscenttext">4.2 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              </dl>
+              <data value="25"><ins>$25.00</ins></data>
+              <button type="button"><span class="material-icons">add_shopping_cart</span></button>
+            </footer>
+          </form>
+        </article>
+      </div>
+      </section>
+    
+      <section role="navigation" aria-label="Pagination">
+        <p>1-6 of 23 products found</p>
+        <ol class="pagination">
+          <li class="pagination"><a href="/index.html" aria-label="Current Page, Page 1" aria-current="true">1</a></li>
+          <li class="pagination"><a href="#" aria-label="Page 2">2</a></li>
+          <li class="pagination"><a href="#" aria-label="Page 3">3</a></li>
+          <li class="pagination"><a href="#" aria-label="Page 4">4</a></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Copyright, 1991.</p>
+      <nav aria-label="Legal">
+        <ul class="terms">
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </nav>
+      <ul class="socialmedia">
+        <li><a href="#"><span class="material-icons">face</span> </a></li>
+        <li><a href="#"><span class="material-icons">camera_alt</span> </a></li>
+        <li><a href="#"><span class="material-icons">alternate_email</span> </a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
