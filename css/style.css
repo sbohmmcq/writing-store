@@ -3,7 +3,6 @@
 
 
 body {
-  background-image: url('');
   background-size: auto 60%;
   background-color: mintcream;
   color: #2f4435;
@@ -17,10 +16,6 @@ body {
 .logo {
   max-height: 30em;
   margin-top: 4em;
-}
-
-.productoptions  {
-  display: inline-block;
 }
 
 .productname  {
